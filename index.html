@@ -93,7 +93,7 @@
         text-decoration: none;
     }
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 500px) and (min-height: 600px) and (max-height: 750px) {
         .one-more-step {
             position: relative;
             width: 315px;
@@ -129,6 +129,82 @@
 
         .footer {
             position: relative;
+            top: 145px;
+            left: 30.27%;
+            right: 0%;
+            bottom: 0.66%;
+        }
+
+        .need-help {
+            position: relative;
+            color: #0040DB;
+            width: 75px;
+            height: 20px;
+            right: -20px;
+
+            font-family: Sul Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .logo {
+            position: relative;
+            width: 87.89px;
+            height: 41.07px;
+            left: 12px;
+        }
+
+        body {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    @media screen and (max-width: 500px) and (min-height: 800px) and (max-height: 850px) {
+        .one-more-step {
+            position: relative;
+            width: 315px;
+            height: 32px;
+            left: 54px;
+            font-family: Ivar Headline;
+            font-size: 2em;
+            line-height: 32px;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.825);
+        }
+
+        .complete-security-check {
+            position: relative;
+            width: 266px;
+            height: 24px;
+            left: 24px;
+
+            font-family: Sul Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.0em;
+            line-height: 24px;
+            color: rgba(0, 0, 0, 0.825);
+        }
+
+        .captcha-box {
+            position: relative;
+            width: 302px;
+            height: 123px;
+            left: 80px;
+        }
+
+        .footer {
+            position: relative;
+            top: 185px;
             left: 30.27%;
             right: 0%;
             bottom: 0.66%;
